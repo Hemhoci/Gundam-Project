@@ -37,3 +37,15 @@
 .listItems a:hover{
     border-bottom: 2px solid
 }
+
+.searchButton{
+  padding: 10px;
+}
+
+.searchBar{
+    
+}
+.search{
+    height: 100%;
+
+}
