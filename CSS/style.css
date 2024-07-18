@@ -2,6 +2,8 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    color: white;
+
 }
 
 /******** hero ********/
@@ -20,4 +22,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center; 
+}
+
+.listItems li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px 8px;
+}
+
+.listItems a{
+    text-decoration: none;
+}
+
+.listItems a:hover{
+    border-bottom: 2px solid
 }
