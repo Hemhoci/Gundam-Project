@@ -24,10 +24,16 @@
     align-items: center; 
 }
 
+img{
+    width: auto;
+    height: 75px;
+    padding-left: 25px;
+}
+
 .listItems li{
     list-style-type: none;
     display: inline-block;
-    margin: 0px 8px;
+    margin: 0px 15px;
 }
 
 .listItems a{
@@ -39,13 +45,14 @@
 }
 
 .searchButton{
-  padding: 10px;
+  padding: 5px 8px;
+  color: black;
 }
 
 .searchBar{
-    
+    padding: 4px 0px;
 }
 .search{
-    height: 100%;
+    margin-right: 20px;
 
 }
