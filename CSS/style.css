@@ -3,8 +3,24 @@
     margin: 0px;
     box-sizing: border-box;
     color: white;
+    font-family: 'Times New Roman', Times, serif
 
 }
+
+/****** fonts ********/
+
+@font-face{
+    font-family: myFont;
+    src: url("https://db.onlinewebfonts.com/t/a163d087c4bfdff182eb1b4fcc595798.woff2") )format("embedded-opentype");
+}
+
+@font-face{
+
+    font-family: myFontt;
+    src: url("https://db.onlinewebfonts.com/t/4c420ead3858f2c9956ce288beeef5ee.eot?#iefix")format("embedded-opentype");
+}
+
+
 
 /******** hero ********/
 .hero{
@@ -96,8 +112,15 @@ img{
     color: black;
     text-align: center;
     width: 33%;
-    font-family: arial;
     font-size: 20px;
     padding: 5px;
    
+}
+
+.block1{
+    font-family: myFont;
+}
+
+.block2{
+    font-family: myFontt;
 }
